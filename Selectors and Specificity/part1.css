@@ -1,3 +1,11 @@
+/*
+Kevin Phillips
+DGMD-E-20
+Modern and Mobile Front-End Web Design I
+Jen Kramer, Instructor
+Erin Schroeder, Teaching Assistant
+*/
+
 /* 1. Using a single declaration block, set all elements to a sans-serif typeface, with dark grey text. In a second declaration block, set all headings to a shade of blue and a monospace font. (Be sure to mention a system typeface as well as the generic.)*/
 body{
     font-family: Arial, Helvetica, sans-serif;
