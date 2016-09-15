@@ -1,26 +1,65 @@
-/*
-1.Using a single declaration block, set all elements to a sans-serif typeface, with dark grey text. In a second declaration block, set all headings to a shade of blue and a monospace font. (Be sure to mention a system typeface as well as the generic.)
-2.In line 42 (starts “Tempus id bibendum a”), set the first letter of that paragraph to bold, 3em, and float it such that the text wraps around it.
-3.For all links that go offsite, indicate this with the phrase “ (external link)” after each link.
-4.For the navbar elements that go offsite, do not display the text “ (external link)”. However, keep that text for all other links in other locations on the page, so #3 continues to work.
-5.For all of the table cells, provide a small amount of space between the words and their container. In a second declaration, create a pink box with two lines going around the entire table.
-6.For the “Temperature”, “Precipitation”, “Amount of Daylight” and “Recommended Outerwear” headings in the table, but NOT the month headings, make them italic, green, and left-aligned. Do not use an nth-child or nth-of-type selector.
-7.In the table, stripe the table so every other row has alternating colors.
-8.Make the words “give me a purple background” in line 92 have a purple background and white text.
-9.Make the words “another student” in the 2nd testimonial (line 32) brown, bold, and not italic. Do not use an nth-child or nth-of-type selector.
-10.Make an orange line separate the footer from the rest of the web page. Center the text in the footer.
-*/
-
+/* 1. Using a single declaration block, set all elements to a sans-serif typeface, with dark grey text. In a second declaration block, set all headings to a shade of blue and a monospace font. (Be sure to mention a system typeface as well as the generic.)*/
 body{
-    /*font-family: sans-serif;*/
     font-family: Arial, Helvetica, sans-serif;
     color: darkgray;
 }
 h1,h2{
     color: darkblue;
-    /*font-family: monospace;*/
     font-family: Courier, "Courier 10 Pitch", monospace;
 }
-/*@font-face {
-    font-family: sans-serif;
-}*/
+
+/* 2. In line 42 (starts “Tempus id bibendum a”), set the first letter of that paragraph to bold, 3em, and float it such that the text wraps around it.*/
+main p:nth-child(4):first-letter{
+    font-size: 3em;
+    font-weight: bold;
+    float:left;
+}
+
+/* 3. For all links that go offsite, indicate this with the phrase “ (external link)” after each link.
+   4. For the navbar elements that go offsite, do not display the text “ (external link)”. However, keep that text for all other links in other locations on the page, so #3 continues to work. */
+main a[href^="http"]::after{
+    content: " (external link) ";
+}
+
+/* 5. For all of the table cells, provide a small amount of space between the words and their container. In a second declaration, create a pink box with two lines going around the entire table. */
+table td{
+    padding: 0.55em;
+
+}
+table{
+    background-color: pink;
+    border-style: double;
+}
+
+/* 6. For the “Temperature”, “Precipitation”, “Amount of Daylight” and “Recommended Outerwear” headings in the table, but NOT the month headings, make them italic, green, and left-aligned. Do not use an nth-child or nth-of-type selector.*/
+table tr:nth-last-child(-n+4) th{
+    font-style: italic;
+    color: green;
+    text-align: left;
+}
+
+/* 7. In the table, stripe the table so every other row has alternating colors. */
+
+/*table tr:nth-child(odd) works the same */
+table tr:nth-child(2n-1){
+    background-color: darkblue;
+}
+
+/* 8. Make the words “give me a purple background” in line 92 have a purple background and white text. */
+main p:last-child em{
+    background-color: purple;
+    color: white;
+}
+
+/* 9. Make the words “another student” in the 2nd testimonial (line 32) brown, bold, and not italic. Do not use an nth-child or nth-of-type selector. */
+#left blockquote:nth-last-child(2) cite{
+    color: brown;
+    font-weight: bold;
+}
+
+/* 10.Make an orange line separate the footer from the rest of the web page. Center the text in the footer.*/
+footer{
+    border-top: solid;
+    border-color: orange;
+    text-align: center;
+}
