@@ -1,0 +1,38 @@
+/*
+Kevin Phillips
+DGMD-E-20
+Modern and Mobile Front-End Web Design I
+Jen Kramer, Instructor
+Erin Schroeder, Teaching Assistant
+*/
+/*.gridcell{
+    background-color: orange;
+    color: pink;
+    font-style: italic;
+}
+.gridcell #danger{
+    color: brown;
+    border: dashed;
+}*/
+
+.warning{
+    background-color: aqua;
+}
+
+.dead{
+    background-color: firebrick;
+}
+
+strong{
+    font-weight: bold;
+}
+
+body#wrapper{
+    color: rebeccapurple;
+    background-color: thistle;
+}
+
+a:first-child{
+    background-color: lawngreen;
+    font-weight: bold;
+}
