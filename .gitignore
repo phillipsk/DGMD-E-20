@@ -1,2 +1,3 @@
 # ignore default jetbrains files
 .idea/
+.zip
