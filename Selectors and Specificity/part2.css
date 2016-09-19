@@ -59,3 +59,7 @@ article p:nth-of-type(even){
 .verylong #list{
 background-color: fuchsia;
 }
+
+ul > li + li > a *{
+    background-color: dodgerblue;
+}
