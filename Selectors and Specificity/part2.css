@@ -39,3 +39,23 @@ a:first-child{
 .bb8.r2d2 #c3po{
     background-color: gold;
 }
+.captain.picard * #riker{
+background-color: black;
+    font-size: x-large;
+    color: orange;
+}
+blockquote[title]:first-line{
+    background-color: darkgreen;
+}
+article p:nth-of-type(even){
+    background-color: dodgerblue;
+}
+.verylong#list{
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Courier, "Courier 10 Pitch", monospace;
+}
+
+.verylong #list{
+background-color: fuchsia;
+}
