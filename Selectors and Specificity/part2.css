@@ -30,6 +30,7 @@ strong{
 body#wrapper{
     color: rebeccapurple;
     background-color: thistle;
+    font-size: medium;
 }
 
 a:first-child{
