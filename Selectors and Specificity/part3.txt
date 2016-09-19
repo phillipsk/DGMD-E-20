@@ -1,0 +1,43 @@
+Kevin Phillips
+DGMD-E-20
+Modern and Mobile Front-End Web Design I
+Jen Kramer, Instructor
+Erin Schroeder, Teaching Assistant
+
+
+Part 3: Specificity and the Cascade
+Below are a series of CSS selectors. Determine and state the numerical specificity of each selector. (Yes, these are the same selectors as part 2!)
+
+The deliverable for Part 3 is a text file called part3.txt. Provide the numerical specificity of each selector below, numbered as shown. Add this to your zip file to turn in, as described in “how to submit your assignment” below.
+
+| ID - Classes - HTML elements |
+
+.gridcell[id=”danger”]
+1-1-0
+
+.warning strong:not(.dead)
+0-2-1
+
+body#wrapper > a:first-child:hover
+1-2-2
+
+.bb8.r2d2 #c3po
+1-2-0
+
+.captain.picard * #riker
+1-2-0
+
+blockquote[title]:first-line  /* CHANGED SEPTEMBER 15 */
+0-2-1
+
+article p:nth-of-type(even)
+0-1-2
+
+.verylong#list
+1-1-0
+
+.verylong #list
+1-1-0
+
+ul > li + li > a *
+0-0-4
