@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family:Arial, geneva, helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	}
+.container {
+    width: 300px;
+	border: 2px solid yellow;
+	}
+.placeholder {
+	border: 2px solid purple;
+	}
+.card {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+#card1 {
+	background-color: red;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+}
+#card2 {
+	background-color: orange;
+	z-index: 2;
+	left: 10px;
+	top: 10px;
+	}
+#card3 {
+	background-color: yellow;
+	z-index: 3;
+	left: 20px;
+	top: 20px;
+	}
+#card4 {
+	background-color: green;
+	z-index: 4;
+	left: 30px;
+	top: 30px;
+	}
+#card5 {
+	background-color: blue;
+	z-index: 5;
+	left: 40px;
+	top: 40px;
+	}
+
+
+
+
+
+

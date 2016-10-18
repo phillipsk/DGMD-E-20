@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family:Arial, geneva, helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	}
+.container {
+    width: 300px;
+	border: 2px solid yellow;
+	}
+.placeholder {
+	border: 2px solid purple;
+	}
+.card {
+	width: 100px;
+	height: 100px;
+}
+#card1 {
+	background-color: red;
+}
+#card2 {
+	background-color: orange;
+	}
+#card3 {
+	background-color: yellow;
+	}
+#card4 {
+	background-color: green;
+	}
+#card5 {
+	background-color: blue;
+	}
+
+
+
+
+
+

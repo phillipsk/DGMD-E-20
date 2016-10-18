@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="Joshua Porter and Jennifer Kramer" />
+<meta name="copyright" content="Copyright © 2004, Joshua Porter and Jennifer Kramer" />
+<link rel="bookmark" href="http://www.learnwebstandards.org" />
+<link rel="start" href="/" />
+<style type="text/css" media="screen" title="Styles for Screen Display">
+@import "../css/screen.css";
+</style>
+<title>Designing with Web Standards</title>
+</head>
+<body id="home">
+<h1 id="class-period-offered">CSS Positioning</h1>
+<ol>
+  <li>Do you understand the box model?</li>
+  <li><strong>Containing blocks</strong> -- each HTML tag is contained in another, right back to the &lt;html&gt; tag itself. Examining the document tree can help view what the containing block is for a given element. </li>
+  <li><strong>Normal flow </strong>-- In this scheme, block boxes flow vertically starting at the top of their  containing block with each placed directly below the preceding one. Inline  boxes flow horizontally from left to right. <strong>Vertical margins collapse if they intersect. Horizontal margins do NOT collapse.</strong></li>
+  <li><strong>Static positioning</strong> -- the default value, where elements are located in normal flow. </li>
+  <li><strong>Absolute positioning</strong> -- positions elements from an absolute position of the nearest ancestral containing element with a position value other than static. Element is completely removed from the flow and its previous position is closed. </li>
+  <ul>
+    <li>Demo start files: <a href="demo_absolute_start.html">HTML</a>, <a href="style_absolute_start.css">CSS</a></li>
+    <li>Demo finish files: <a href="demo_absolute.html">HTML</a>, <a href="style_absolute.css">CSS</a> </li>
+  </ul>
+  <li><strong>Relative positioning </strong>-- positions elements from a position relative to their containing element. Element retains the shape it would have had if it were not positioned. The space the element normally occupies is preserved.
+    <ul>
+      <li>Demo start files: <a href="demo_relative_start.html">HTML</a>, <a href="style_relative_start.css">CSS</a></li>
+      <li>Demo finish files: <a href="demo_relative.html">HTML</a>, <a href="style_relative.css">CSS</a> </li>
+    </ul>
+  </li>
+</ol>
+<h2>CSS Positioning Resources</h2>
+<ul>
+  <li><a href="http://learnlayout.com/">Learn Layout tutorial</a></li>
+  <li><a href="http://www.barelyfitz.com/screencast/html-training/css/positioning/">Learn CSS Positioning in 10 Steps</a></li>
+  <li><a href="http://css.maxdesign.com.au/floatutorial/">Floatutorial</a></li>
+</ul>
+<!-- content -->
+</body>
+</html>
