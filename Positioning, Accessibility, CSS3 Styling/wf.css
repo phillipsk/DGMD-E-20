@@ -1,4 +1,51 @@
-body {margin: 0;}
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 1.5em; /* TRouBLe */
+}
+
+.navbar {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+/*    font-size: 1.2em;
+    font-weight: bold;
+    width: 70%;
+    float: left;
+    padding-top: 1.5em;
+    background: #eee;*/
+
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: right;
+}
+nav li {
+    display: inline;
+    padding-right: 1.3em;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: brown;
+}
+nav a:hover {
+    color: yellowgreen;
+}
+
+
+
+
+
+
+/*
 
 ul.sidenav {
     list-style-type: none;
@@ -52,4 +99,4 @@ div.content {
         text-align: center;
         float: none;
     }
-}
+}*/

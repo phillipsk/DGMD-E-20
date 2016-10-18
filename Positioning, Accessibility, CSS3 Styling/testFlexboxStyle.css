@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 1em;
+}
+
+.navbar {
+    background: #e2e2e2;
+}
+.navbar .toggle, .navbar .brand {
+    display: inline-block;
+}
+.navbar .link {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    background: seagreen;
+    color: white;
+}
+.navbar .link:hover, .navbar .link:active {
+    background: black;
+}
+.navbar .brand {
+    width: 10em;
+    text-align: center;
+    padding: 1em;
+    background: black;
+    color: white;
+}
+.navbar .toggle {
+    padding: 1em;
+    color: black;
+    vertical-align: middle;
+}
+
+@media (min-width: 48em) {
+    .navbar {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .navbar .left, .navbar .right {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+    .navbar .link {
+        width: auto;
+    }
+    .navbar .right {
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+    .navbar .toggle {
+        display: none;
+    }
+}
+.navbar div {
+    display: none;
+}
+@media (min-width: 48em) {
+    .navbar div {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media (max-width: 48em) {
+    .navbar.active .toggle {
+        background: seagreen;
+        color: white;
+    }
+    .navbar.active div {
+        display: block;
+    }
+}
