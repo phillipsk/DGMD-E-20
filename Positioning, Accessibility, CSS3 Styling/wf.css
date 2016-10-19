@@ -12,24 +12,36 @@ h2,h3,h4,h5,h6 {
     border: 0.2em dashed;
     margin: 0.2em;
     padding: 0.5em;
-    clear: both;
+    /*clear: both;*/
 }
 h1{
-    display: inline;
+    /*margin: 3em;*/
+    padding-left: 1.5em;
 }
 .clearfloat{
     clear: both;
 }
-#banner{
-    /*float: right;*/
-    /*display: block;*/
-    position: relative;
-    right: 0;
-    bottom: 0;
-    /*z-index: -1;*/
-    /*clear: both;*/
-    /*overflow: auto;*/
+#fb{
+    position: fixed;
+    left:0;
+    top: 300px;
 }
+#twitter{
+    position: fixed;
+    left:0;
+    top: 335px;
+}
+#linkedin{
+    position: fixed;
+    left:0;
+    top: 370px;
+}
+#googl{
+     position: fixed;
+     left:0;
+     top: 405px;
+ }
+
 .main {
     border: 2px solid orange;
     margin: 1em 1em 1em 1em;
@@ -95,7 +107,22 @@ header{
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
-    /*overflow: hidden;*/
+
+    -webkit-column-width: 100px; /* Chrome, Safari, Opera */
+    -moz-column-width: 100px; /* Firefox */
+    column-width: 100px;
+}
+#footer{
+    border: solid brown;
+    margin: 1em;
+    padding: 1.5em;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+    -webkit-column-width: 100px; /* Chrome, Safari, Opera */
+    -moz-column-width: 100px; /* Firefox */
+    column-width: 100px;
 }
 .separate-middle{
 
