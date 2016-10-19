@@ -8,19 +8,22 @@ body{
 }
 h2,h3,h4,h5,h6 {
     text-transform: capitalize;
-    display: inline-block;
+    display: block;
     border: 0.2em dashed;
     margin: 0.2em;
     padding: 0.5em;
-    /*clear: both;*/
+    clear: both;
 }
 h1{
     /*margin: 3em;*/
     padding-left: 1.5em;
 }
-.clearfloat{
-    clear: both;
+h2{
+    /*clear: left;*/
 }
+/*.clearfloat{
+    clear: both;
+}*/
 #fb{
     position: fixed;
     left:0;
@@ -85,6 +88,7 @@ header{
     float: left;
     margin: 0 1em 1em 0;
     border: solid brown;
+    /*overflow: scroll;*/
 }
 .floatright {
     float: right;
