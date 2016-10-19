@@ -15,11 +15,20 @@ h2,h3,h4,h5,h6 {
     clear: both;
 }
 h1{
-    /*display: block;*/
+    display: inline;
+}
+.clearfloat{
+    clear: both;
 }
 #banner{
-    float: right;
-    display: block;
+    /*float: right;*/
+    /*display: block;*/
+    position: relative;
+    right: 0;
+    bottom: 0;
+    /*z-index: -1;*/
+    /*clear: both;*/
+    /*overflow: auto;*/
 }
 .main {
     border: 2px solid orange;
@@ -54,10 +63,11 @@ nav a {
 nav a:hover {
     color: burlywood;
 }
-/*header{
-    overflow: auto;
-    position: fixed;
-}*/
+header{
+    /*overflow: auto;*/
+    /*position: fixed;*/
+
+}
 
 .floatleft {
     float: left;
