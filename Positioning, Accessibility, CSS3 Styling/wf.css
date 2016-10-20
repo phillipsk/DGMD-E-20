@@ -4,6 +4,7 @@
 body{
     margin: 0 1.5em; /* TRouBLe */
     background-color: #eee;
+    opacity: 1.9;
     font-family: Arial, Helvetica, sans-serif;
 }
 nav {
@@ -33,11 +34,14 @@ nav a:hover {
 }
 h1{
     padding-left: 1.5em;
+    font-family: 'Tangerine', sans-serif;
+    font-size: 4em;
 }
 h2,h3,h4,h5,h6 {
     text-transform: capitalize;
     display: block;
     border: 0.2em dashed;
+    border-radius: 25px;
     margin: 0.2em;
     padding: 0.5em;
     clear: both;
@@ -81,6 +85,10 @@ h2,h3,h4,h5,h6 {
     border: solid brown;
     margin: 1em;
     padding: 1.5em;
+
+    border-radius: 15px 50px;
+    background: powderblue;
+
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
@@ -93,6 +101,8 @@ h2,h3,h4,h5,h6 {
     border: solid brown;
     margin: 1em;
     padding: 1.5em;
+    border-radius: 25px;
+
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
