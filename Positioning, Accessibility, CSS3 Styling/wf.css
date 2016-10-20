@@ -6,53 +6,6 @@ body{
     background-color: #eee;
     font-family: Arial, Helvetica, sans-serif;
 }
-h2,h3,h4,h5,h6 {
-    text-transform: capitalize;
-    display: block;
-    border: 0.2em dashed;
-    margin: 0.2em;
-    padding: 0.5em;
-    clear: both;
-}
-h1{
-    /*margin: 3em;*/
-    padding-left: 1.5em;
-}
-h2{
-    /*clear: left;*/
-}
-/*.clearfloat{
-    clear: both;
-}*/
-#fb{
-    position: fixed;
-    left:0;
-    top: 300px;
-}
-#twitter{
-    position: fixed;
-    left:0;
-    top: 335px;
-}
-#linkedin{
-    position: fixed;
-    left:0;
-    top: 370px;
-}
-#googl{
-     position: fixed;
-     left:0;
-     top: 405px;
- }
-
-.main {
-    border: 2px solid orange;
-    margin: 1em 1em 1em 1em;
-    /*width: 900px;*/
-    padding: 1em;
-    /*overflow: auto;*/
-
-}
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -78,31 +31,51 @@ nav a {
 nav a:hover {
     color: burlywood;
 }
-header{
-    /*overflow: auto;*/
-    /*position: fixed;*/
-
+h1{
+    padding-left: 1.5em;
 }
-
+h2,h3,h4,h5,h6 {
+    text-transform: capitalize;
+    display: block;
+    border: 0.2em dashed;
+    margin: 0.2em;
+    padding: 0.5em;
+    clear: both;
+}
+#fb{
+    position: fixed;
+    left:0;
+    top: 300px;
+}
+#twitter{
+    position: fixed;
+    left:0;
+    top: 335px;
+}
+#linkedin{
+    position: fixed;
+    left:0;
+    top: 370px;
+}
+#googl{
+     position: fixed;
+     left:0;
+     top: 405px;
+ }
+.main {
+    border: 2px solid orange;
+    margin: 1em 1em 1em 1em;
+    padding: 1em;
+}
 .floatleft {
     float: left;
     margin: 0 1em 1em 0;
     border: solid brown;
-    /*overflow: scroll;*/
 }
 .floatright {
     float: right;
     margin: 0 0 1em 1em;
     border: solid brown;
-}
-.column-1 {
-
-}
-.column-2 {
-
-}
-.column-3 {
-
 }
 .separate{
     border: solid brown;
@@ -127,7 +100,4 @@ header{
     -webkit-column-width: 100px; /* Chrome, Safari, Opera */
     -moz-column-width: 100px; /* Firefox */
     column-width: 100px;
-}
-.separate-middle{
-
 }
