@@ -4,7 +4,6 @@
 body{
     margin: 0 1.5em; /* TRouBLe */
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #EEEEEE;
 }
 nav {
     display: inline-flex;
@@ -47,12 +46,13 @@ h1{
     font-size: 4em;
 }
 html {
-    background: url(img/wisdom-books2.jpg) /*no-repeat center center fixed*/;
+/*    background: url(img/wisdom-books2.jpg) !*no-repeat center center fixed*!;
      -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+    background-color: #EEEEEE;
 }
 #fb{
     position: fixed;
