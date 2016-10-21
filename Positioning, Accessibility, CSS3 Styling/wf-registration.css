@@ -46,12 +46,12 @@ h1{
     font-size: 4em;
 }
 html {
-    background: url(img/wisdom-books.jpg) no-repeat center center fixed;
+/*    background: url(img/wisdom-books.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    /*opacity: 1.9;*/
+    background-size: cover;*/
+    background-color: #EEEEEE;
 }
 #fb{
     position: fixed;
@@ -88,6 +88,6 @@ html {
     text-align: center;
 }
 table caption{
-    background-color: darkred;
+    background-color: rgba(224, 230, 36, 0.73);
     padding: 0.2em;
 }
