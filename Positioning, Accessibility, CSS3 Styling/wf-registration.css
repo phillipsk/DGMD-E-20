@@ -73,9 +73,21 @@ html {
     left:0;
     top: 405px;
 }
-*:focus, *:hover{
-    /* sourced from http://accessibility.umn.edu/web-designers/onfocus-styling */
-    outline: none;
-    border-color: #9348ed;
-    box-shadow: 0 0 10px #9348ed;
+.registration{
+    margin: 5em 0 0 15em;
+    font-size: 2em;
+    color: slateblue;
+    font-weight: bolder;
+    background-color: #cccccc;
+}
+.registration th{
+    padding-left: 1em;
+}
+.registration td{
+    padding: 0.2em;
+    text-align: center;
+}
+table caption{
+    background-color: darkred;
+    padding: 0.2em;
 }

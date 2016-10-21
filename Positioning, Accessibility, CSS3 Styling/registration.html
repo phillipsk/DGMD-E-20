@@ -5,9 +5,11 @@
     <title>Wisdom Forum</title>
     <!-- Google Web Font Tangerine -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
-    <link rel="stylesheet" href="wf.css">
+    <link rel="stylesheet" href="wf-registration.css">
 </head>
 <body>
+<!-- accessibility look ugly; work in progress on this page -->
+<!--<a href="#maincontent">Skip to main content</a>-->
 <header>
     <h1>The Wisdom Forum</h1>
     <nav id="navbar" ><!--class="clearfloat"-->
@@ -21,7 +23,46 @@
         </ul>
     </nav>
 </header>
-
+<div class="social" role="tablist">
+    <a href=""><img id="fb" src="img/35fb.png" alt="facebook"></a>
+    <a href=""><img id="twitter" src="img/35twitter.png" alt="twitter"></a>
+    <a href=""><img id="linkedin" src="img/35linkedin.png" alt="linkedin"></a>
+    <a href=""><img id="googl" src="img/35google.png" alt="google plus"></a>
+</div>
+<div id="maincontent" role="main">
+    <table class="registration">
+        <caption>Wisdom Forum Registration List</caption>
+        <thead>
+        <tr>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Age</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>Adam</td>
+            <td>Johnson</td>
+            <td>67</td>
+        </tr>
+        <tr>
+            <td>Bo</td>
+            <td>Nilson</td>
+            <td>35</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
 
 </body>
 </html>
