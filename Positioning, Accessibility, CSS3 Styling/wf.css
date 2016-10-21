@@ -87,7 +87,7 @@ h2,h3,h4,h5,h6 {
     padding: 1.5em;
 
     border-radius: 15px 50px;
-    background: powderblue;
+    background: #B0E0E6;
 
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
