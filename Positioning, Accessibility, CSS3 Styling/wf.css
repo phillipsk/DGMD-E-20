@@ -97,7 +97,7 @@ h2,h3,h4,h5,h6 {
     -moz-column-width: 100px; /* Firefox */
     column-width: 100px;
 }
-#footer{
+footer{
     border: solid brown;
     margin: 1em;
     padding: 1.5em;
