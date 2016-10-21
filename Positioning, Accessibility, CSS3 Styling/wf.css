@@ -30,7 +30,7 @@ nav a {
     color: #A52A2A;
 }
 nav a:hover {
-    color: burlywood;
+    color: darkorange;
 }
 h1{
     padding-left: 1.5em;
@@ -113,4 +113,10 @@ h2,h3,h4,h5,h6 {
 }
 p a:hover{
     background-color: lightgray;
+}
+*:focus, *:hover{
+    /* sourced from http://accessibility.umn.edu/web-designers/onfocus-styling */
+    outline: none;
+    border-color: #9348ed;
+    box-shadow: 0 0 10px #9348ed;
 }
