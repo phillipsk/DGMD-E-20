@@ -66,7 +66,7 @@ h2,h3,h4,h5,h6 {
      left:0;
      top: 405px;
  }
-.main {
+#maincontent {
     border: 2px solid orange;
     margin: 1em 1em 1em 1em;
     padding: 1em;
