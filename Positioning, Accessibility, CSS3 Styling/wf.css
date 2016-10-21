@@ -3,7 +3,7 @@
 }
 body{
     margin: 0 1.5em; /* TRouBLe */
-    background-color: #eee;
+    background-color: #EEEEEE;
     opacity: 1.9;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -27,7 +27,7 @@ nav li {
 nav a {
     display: inline-block;
     text-decoration: none;
-    color: brown;
+    color: #A52A2A;
 }
 nav a:hover {
     color: burlywood;
@@ -110,4 +110,7 @@ h2,h3,h4,h5,h6 {
     -webkit-column-width: 100px; /* Chrome, Safari, Opera */
     -moz-column-width: 100px; /* Firefox */
     column-width: 100px;
+}
+p a:hover{
+    background-color: lightgray;
 }
