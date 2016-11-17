@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0 1.5em; /* TRouBLe */
+    background-color: #EEEEEE;
+    opacity: 1.9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: right;
+}
+nav li {
+    display: inline;
+    padding-right: 1.5em;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #A52A2A;
+}
+nav a:hover {
+    color: darkorange;
+}
+h1{
+    padding-left: 1.5em;
+    font-family: 'Tangerine', sans-serif;
+    font-size: 4em;
+}
+h2,h3,h4,h5,h6 {
+    text-transform: capitalize;
+    display: block;
+    border: 0.2em dashed;
+    border-radius: 25px;
+    margin: 0.2em;
+    padding: 0.5em;
+    clear: both;
+}
+#fb{
+    position: fixed;
+    left:0;
+    top: 300px;
+}
+#twitter{
+    position: fixed;
+    left:0;
+    top: 335px;
+}
+#linkedin{
+    position: fixed;
+    left:0;
+    top: 370px;
+}
+#googl{
+     position: fixed;
+     left:0;
+     top: 405px;
+ }
+#maincontent {
+    border: 2px solid orange;
+    margin: 1em 1em 1em 1em;
+    padding: 1em;
+    overflow: hidden;
+}
+.floatleft {
+    float: left;
+    margin: 0 1em 1em 0;
+    border: solid brown;
+}
+.floatright {
+    float: right;
+    margin: 0 0 1em 1em;
+    border: solid brown;
+}
+.separate{
+    border: solid brown;
+    margin: 1em;
+    padding: 1.5em;
+
+    border-radius: 15px 50px;
+    background: #B0E0E6;
+
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+    -webkit-column-width: 100px; /* Chrome, Safari, Opera */
+    -moz-column-width: 100px; /* Firefox */
+    column-width: 100px;
+}
+footer{
+    border: solid brown;
+    margin: 1em;
+    padding: 1.5em;
+    border-radius: 25px;
+
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+    -webkit-column-width: 100px; /* Chrome, Safari, Opera */
+    -moz-column-width: 100px; /* Firefox */
+    column-width: 100px;
+}
+p a:hover{
+    background-color: lightgray;
+}
+*:focus, *:hover{
+    /* sourced from http://accessibility.umn.edu/web-designers/onfocus-styling */
+    outline: none;
+    border-color: #9348ed;
+    box-shadow: 0 0 10px #9348ed;
+}

@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0 1.5em; /* TRouBLe */
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: #ffffff;
+    border: 0.1em solid black;
+    opacity: 0.6;
+    padding: 0.5em;
+    margin-right: 3em;
+    float: right;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: right;
+}
+nav li {
+    display: inline;
+    padding-right: 1.5em;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: brown;
+    font-weight: 900;
+    border-radius: 15px 50px;
+    background: powderblue;
+    padding: 0.3em;
+}
+nav a:hover {
+    color: darkorange;
+}
+h1{
+    padding-left: 1.5em;
+    font-family: 'Tangerine', sans-serif;
+    font-size: 4em;
+}
+html {
+/*    background: url(img/wisdom-books2.jpg) !*no-repeat center center fixed*!;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    background-color: #EEEEEE;
+}
+#fb{
+    position: fixed;
+    left:0;
+    top: 300px;
+}
+#twitter{
+    position: fixed;
+    left:0;
+    top: 335px;
+}
+#linkedin{
+    position: fixed;
+    left:0;
+    top: 370px;
+}
+#googl{
+    position: fixed;
+    left:0;
+    top: 405px;
+}
+*:focus, *:hover{
+    /* sourced from http://accessibility.umn.edu/web-designers/onfocus-styling */
+    outline: none;
+    border-color: #9348ed;
+    box-shadow: 0 0 10px #9348ed;
+}
