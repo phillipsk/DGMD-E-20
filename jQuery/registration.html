@@ -6,6 +6,8 @@
     <!-- Google Web Font Tangerine -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="wf-registration.css">
+    <script type="text/javascript" src="js/jQueryv3.1.1.js"></script>
+    <script type="text/javascript" src="js/jQuery.js"></script>
 </head>
 <body>
 <!-- accessibility look ugly; work in progress on this page -->
@@ -30,6 +32,40 @@
     <a href=""><img id="googl" src="img/35google.png" alt="google plus"></a>
 </div>
 <div id="maincontent" role="main">
+    <form id="registrationForm" method="post">
+        <fieldset>
+            <legend>Please provide us with your information</legend>
+            <p>
+                <label for="name">Name</label> <em>(Required)</em>
+                <br/>
+                <input id="name" name="name" size="25" aria-required="true" type="text"/>
+            </p>
+            <p>
+                <label for="email">Email Address</label> <em>(Required)</em>
+                <br/>
+                <input id="email" name="email" size="25" aria-required="true" type="email"/>
+            </p>
+
+            <p>
+                <label for="comments">Comments</label>
+                <br/>
+                <textarea id="comments" name="comments" rows="5" cols="60" aria-required="false"
+                          placeholder="Anything about yourself you would like to share"></textarea>
+            </p>
+            <p>
+            <p>Would you like to receive mobile text updates from the Wisdom Forum?</p>
+            Yes <input id="checkedYes" type="checkbox" name="yes" value="yes"><br>
+            No <input type="checkbox" name="no" value="no"><br>
+            <p id="mobile">
+                <label for="phone">Phone</label>
+                <br/>
+                <input id="phone" name="phone" aria-required="false" type="tel">
+            </p>
+            </p>
+            <p>
+                <input class="submit" type="submit" value="Submit Form"/></p>
+        </fieldset>
+    </form>
     <table class="registration">
         <caption>Wisdom Forum Registration List</caption>
         <thead>
