@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<h1>Pie Order Form</h1>
+		<p>Fill out the form below to place an order for a wonderful pie.</p>
+		<form action="" method="">
+			<fieldset>
+				<legend>Your contact information</legend>
+				<label for="name">Your name (required)</label>
+					<input type="text" id="name" aria-required="true" autofocus>
+
+				<label for="phone">Phone number</label>
+					<input type="tel" id="phone" aria-required="false" placeholder="Don't forget the area code!">
+
+				<label for="email">Email</label>
+					<input type="email" id="email" aria-required="false">
+
+				<label for="date">Requested pickup date</label>
+					<input type="date" id="date" aria-required="false">
+
+			</fieldset>
+			<fieldset>
+				<legend>About your pie</legend>
+				<label>How many pies would you like?
+					<input type="number" id="qty" min="1" max="10">
+				</label>
+				<p id="bottomcrust">What type of bottom crust?</p>
+					<label>
+						<input type="radio" name="bottom" value="classic" checked aria-checked="true" aria-labelledby="bottomcrust" role="radiogroup"> Classic <br>
+					</label>
+
+					<label>
+						<input type="radio" name="bottom" value="gfclassic" aria-labelledby="bottomcrust" role="radiogroup"  aria-checked="false"> Gluten-Free Classic 
+					</label>
+				
+				<p id="topcrust">What type of top crust?</p>
+					<label>
+						<input type="radio" name="top" value="full" checked role="radiogroup" aria-labelledby="topcrust" aria-checked="true"> Classic Full Crust 
+					</label>
+					<label>
+						<input type="radio" name="top" value="lattice" role="radiogroup" aria-labelledby="topcrust" aria-checked="false"> Lattice Crust
+					</label>
+					<label>
+						<input type="radio" name="top" value="gffull" role="radiogroup" aria-labelledby="topcrust" aria-checked="false"> Gluten-Free Full Crust 
+					</label>
+					<label>
+						<input type="radio" name="top" value="none" role="radiogroup" aria-labelledby="topcrust" aria-checked="false"> No top crust
+					</label>
+
+				<p>What type of pie filling?</p>
+					<select id="filling">
+						<option selected>Select one...</option>
+						<option value="apple">Apple</option>
+						<option value="blueberry">Blueberry</option>
+						<option value="cherry">Cherry</option>
+						<option value="pumpkin">Pumpkin</option>
+					</select>
+					<label>
+						<input id="sugarfree" type="checkbox" value="sugarfree">Make the filling sugar-free
+					</label>
+				
+				<label>Special requests:<br>
+					<textarea id="comments" placeholder="Any additional instructions for us?"></textarea>
+				</label>
+				<button type="submit">Submit</button>
+			</fieldset>
+		</form>
+
+	</div>
+</body>
+</html>
+
+
+
+
+

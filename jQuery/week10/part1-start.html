@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<h1>Pie Order Form</h1>
+		<p>Fill out the form below to place an order for a wonderful pie.</p>
+		<form action="" method="">
+			<p>Your name 
+				<input type="text" id="name">
+			</p>
+			<p>Phone number
+				<input type="text" id="phone">
+			</p>
+			<p>Email
+				<input type="text" id="email">
+			</p>
+			<p>Requested pickup date
+				<input type="text" id="date">
+			</p>
+			<p>How many pies would you like?
+				<input type="text" id="qty">
+			</p>
+			<p>What type of bottom crust?<br>
+				<input type="radio" name="bottom" value="classic" checked> Classic <br>
+				<input type="radio" name="bottom" value="gfclassic"> Gluten-Free Classic 
+			</p>
+			<p>What type of top crust?<br>
+				<input type="radio" name="top" value="full" checked> Classic Full Crust <br>
+				<input type="radio" name="top" value="lattice"> Lattice Crust<br>
+				<input type="radio" name="top" value="gffull"> Gluten-Free Full Crust <br>
+				<input type="radio" name="top" value="none"> No top crust
+			</p>
+			<p>What type of pie filling?<br>
+				<select id="filling">
+					<option selected>Select one...</option>
+					<option value="apple">Apple</option>
+					<option value="blueberry">Blueberry</option>
+					<option value="cherry">Cherry</option>
+					<option value="pumpkin">Pumpkin</option>
+				</select>
+				<br><input id="sugarfree" type="checkbox" value="sugarfree">Make the filling sugar-free
+			</p>
+			<p>Special requests:<br>
+				<textarea id="comments"></textarea>
+			</p>
+			<button type="submit">Submit</button>
+		</form>
+
+	</div>
+</body>
+</html>
+
+
+
+
+
