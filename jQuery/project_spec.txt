@@ -3,3 +3,25 @@ Kevin Phillips
 Professor Jen Kramer
 
 jQuery (Assignment 3)
+
+Part 1
+The <form> tag is located at this HTML URL: ____ on line numbers: _____
+The line numbers for two HTML5 form elements are: ___________
+My two jQuery-driven interactive elements in the form include ____
+Located at this HTML URL: ____
+The line numbers in the JavaScript file where this code is found are: ______
+My site’s click effect is ____
+Located at this HTML URL: ____
+The line numbers in the JavaScript file where this code is found are: ______
+My site’s hover effect is ____
+Located at this HTML URL: ____
+The line numbers in the JavaScript file where this code is found are: ______
+My if/else choice is ____
+Located at this HTML URL: ____
+The line numbers in the JavaScript file where this code is found are: ______
+My effect that requires filtering the results is ____
+Located at this HTML URL: ____
+The line numbers in the JavaScript file where this code is found are: ______
+Two more effects of my choice are ____
+Located at this HTML URL: ____
+The line numbers in the JavaScript file where this code is found are: ______

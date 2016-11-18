@@ -122,3 +122,10 @@ p a:hover{
     border-color: #9348ed;
     box-shadow: 0 0 10px #9348ed;
 }*/
+
+.addColor{
+    color: red;
+    font-style: italic;
+    font-weight: 400;
+    font-family: "Lohit Devanagari", serif;
+}
