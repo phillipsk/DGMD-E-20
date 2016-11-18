@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+	width: 97%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.jumbotron {
+	background-color: #ccc;
+	padding: 1em;
+	border-radius: 10px;
+	overflow: auto;
+}
+.jumbotron img {
+	border-radius: 1000px;
+	float: right;
+}
+.row {
+	clear: both;
+
+}
+.column {
+	width: 25%;
+	padding: 1em;
+	float: left;
+}
+.column img {
+	width: 100%;
+	max-width: 225px;
+	border-radius: 10px;
+}
+button {
+	color: white;
+	background-color: #61528E;
+	border: 1px solid #4C3F6E;
+	border-radius: 50px;
+	font-size: 1em;
+	padding: 0.5em;
+}
+button:hover {
+	background-color: #8E81B6;
+	border-color: #61528E;
+}
+footer {
+	font-size: 75%;
+	text-align: center;
+	color: #666;
+	padding: 2em 3em;
+}
+footer p {
+	border-top: 1px dotted #666;
+	padding-top: 3em;
+}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Harvard Extension Resources</title>
+</head>
+
+<body>
+  <header>
+    <h1>Harvard Extension School</h1>
+    <h2>Department of Continuing Education</h2>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="http://www.extension.harvard.edu/about-us" id="menu-1254">About Us</a></li>
+      <li><a href="http://www.extension.harvard.edu/courses" id="menu-1544">Courses</a></li>
+      <li><a href="http://www.extension.harvard.edu/registration" id="menu-1545">Registration</a></li>
+      <li><a href="http://www.extension.harvard.edu/degrees-certificates" id="menu-1548">Degrees &amp; Certificates</a></li>
+      <li><a href="http://www.extension.harvard.edu/distance-education" id="menu-1549">Distance Education</a></li>
+      <li><a href="http://www.extension.harvard.edu/exams-grades-policies" title="Exams, Grades, and Policies" id="menu-1550">Exams, Grades, &amp; Policies</a></li>
+      <li><a href="http://www.extension.harvard.edu/resources" id="menu-1551">Resources</a></li>
+      <li><a href="http://www.extension.harvard.edu/hub" title="" id="menu-163631">News Hub</a></li>
+    </ul>
+  </nav>
+  <article>
+    <h2>Resources and Benefits</h2>
+    <p class="para2">By registering for a class at the Extension School, you become <span class="keyword">eligible</span> for many Harvard benefits and resources.</p>
+    <aside>
+      <h3>See also</h3>
+      <ul>
+        <li><a href="http://www.extension.harvard.edu/registration/tuition-payment/financial-aid">Financial aid</a></li>
+        <li><a href="http://www.extension.harvard.edu/registration/registration-guidelines/id-numbers-pins">ID numbers and PINs </a></li>
+        <li><a href="http://www.extension.harvard.edu/exams-grades-policies/transcripts">Transcript requests</a></li>
+      </ul>
+    </aside>
+    <h3>Computer and research tools</h3>
+    <p>The <a href="http://lab.dce.harvard.edu/">computer facilities</a> at    53 Church Street and the Grossman Library allow you to utilize hundreds    of the latest programs and tools to get projects—large and small—done   on  time. Additionally, as a registered Extension School student you are    eligible for discounts on computer hardware and software. See <a href="http://www.extension.harvard.edu/resources/computer-services">Computer Services</a> for more information.</p>
+    <p>You can also take advantage of some <a href="http://www.extension.harvard.edu/resources/libraries">Harvard library</a> benefits, including access to Grossman Library and more than 3,000 electronic databases and journals through the <a href="http://lib.harvard.edu/">Harvard Libraries Portal</a>.</p>
+    <img src="http://www.extension.harvard.edu/sites/default/files/about_1.jpg" alt="" height="82" width="120">
+  </article>
+  <footer>
+      <ul>
+        <li><a href="http://www.extension.harvard.edu/help/privacy-policy">Privacy Policy</a></li>
+        <li><a href="http://www.trademark.harvard.edu/trademark_protection/notice.php">Trademark</a></li>
+        <li><a href="http://www.harvard.edu/">Harvard University</a></li>
+      </ul>
+      <address>
+      51 Brattle Street, Cambridge, <abbr title="Massachusetts">MA</abbr> 02138 USA (617) 495-4024
+      </address>
+      <p>© 2012–13  President and Fellows of Harvard College</p>
+  </footer>
+  <!-- javascript/jquery goes here -->
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('p a').css({
+        color: "green",
+        textDecoration: "none",
+        fontWeight: "bold"
+      }); //end p links css
+
+      $('nav ul li:odd').css({
+        fontStyle: "italic"
+      }); //end odd nav links
+
+      $('address').fadeOut(2000).fadeIn(3000).css({
+        fontSize: "3em",
+        fontWeight: "bold",
+        color: "red"
+      }); //end address style
+
+      $('.para2').slideUp(1000).slideDown(2000);
+
+      $('.keyword').fadeOut(3000).fadeIn(2000);
+
+    }); //end ready
+  </script>
+</body>
+</html>
