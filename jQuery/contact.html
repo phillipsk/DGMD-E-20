@@ -6,6 +6,8 @@
     <!-- Google Web Font Tangerine -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="wf.css">
+    <script type="text/javascript" src="js/jQueryv3.1.1.js"></script>
+    <script type="text/javascript" src="js/jQuery.js"></script>
 </head>
 <body>
 <header>
@@ -20,6 +22,73 @@
             <!--<li id="nav-support"><a href="#">Support</a></li>-->
         </ul>
     </nav>
+    <div id="maincontent" role="main">
+        <h1>Schedule a Prayer session with our Prayer Ministers</h1>
+        <p>How would you prefer to pray with us?</p>
+        <div id="phone_target">
+            Phone Request
+        </div>
+        <div id="In_Person_target">
+            At your preferred location
+        </div>
+        <div id="At_Church_target">
+            At our Sanctuary
+        </div>
+        <form id="prayer_phone" method="post">
+            <div class="msg"></div>
+                <br>
+                <p id="names">
+                    <label for="name">Name</label>
+                    <br/>
+                    <input id="name" name="name" size="25" aria-required="true" type="text"/>
+                </p>
+                <p id="phones">
+                    <label for="phone">Phone Number</label>
+                    <br/>
+                    <input id="phone" name="phone" aria-required="false" type="tel">
+                </p>
+                <p>
+                    <input id="submit" type="submit" value="Pray On It!"/>
+                </p>
+        </form>
+        <form id="prayer_person" method="post">
+            <div class="msg"></div>
+            <br>
+            <label for="name">Name</label>
+            <br/>
+            <input name="name" size="25" aria-required="true" type="text"/>
+            <p>
+                <label for="comments">Location</label>
+                <br/>
+                <textarea id="comments" name="comments" rows="5" cols="60" aria-required="false"
+                          placeholder="Please enter your address"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Pray On It!"/>
+            </p>
+        </form>
+        <form id="prayer_church" method="post">
+            <div class="msg"></div>
+            <br>
+                    <label for="name">Name</label>
+                    <br/>
+                    <input name="name" size="25" aria-required="true" type="text"/>
+                <p>
+                    Visit Us in Silver Spring, MD!
+                </p>
+                <p>
+                    <input type="submit" value="Pray On It!"/>
+                </p>
+        </form>
+
+        <!--            <select id="prayer_requests">
+                <option selected>Select one...</option>
+                <option value="Phone">Phone</option>
+                <option value="Email">Email</option>
+                <option value="In-Person">In-Person</option>
+                <option value="At Church">At Church</option>
+            </select>-->
+    </div>
 </header>
 
 

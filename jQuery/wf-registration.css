@@ -91,3 +91,7 @@ table caption{
     background-color: rgba(224, 230, 36, 0.73);
     padding: 0.2em;
 }
+
+#registrationForm{
+    margin: 2em;
+}
