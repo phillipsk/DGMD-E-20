@@ -115,9 +115,10 @@ footer{
 p a:hover{
     background-color: lightgray;
 }
+/*
 *:focus, *:hover{
-    /* sourced from http://accessibility.umn.edu/web-designers/onfocus-styling */
+    !* sourced from http://accessibility.umn.edu/web-designers/onfocus-styling *!
     outline: none;
     border-color: #9348ed;
     box-shadow: 0 0 10px #9348ed;
-}
+}*/
