@@ -81,3 +81,13 @@ html {
     border-color: #9348ed;
     box-shadow: 0 0 10px #9348ed;
 }*/
+
+#canvas_main{
+    border: double;
+    margin: 3em;
+}
+
+.canvas{
+    margin-bottom: 5em;
+}
+

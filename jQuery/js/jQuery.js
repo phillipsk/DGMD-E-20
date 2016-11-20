@@ -73,5 +73,26 @@ $(document).ready(function() {
         }
     });
 
+    /* jCanvas (Assignment 3 continued) */
+
+    $('#clear_jCanvas').click(function(){
+        $('#canvas_main').clearCanvas();
+    });
+
+    $('#button_draw_shapes').click(function(){
+        $('#canvas_main').drawRect({
+            fillStyle: '#c33',
+            x: 300, y: 90,
+            width: 200,
+            height: 180
+        });
+        $('#canvas_main').drawPolygon({
+            strokeStyle: 'blue',
+            strokeWidth: 4,
+            x: 450, y: 200,
+            radius: 150,
+            sides: 3
+        });
+    });
 
 });

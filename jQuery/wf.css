@@ -129,3 +129,8 @@ p a:hover{
     font-weight: 400;
     font-family: "Lohit Devanagari", serif;
 }
+
+.padding{
+    padding: .5em;
+    margin: .5em;
+}
