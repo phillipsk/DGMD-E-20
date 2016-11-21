@@ -32,20 +32,21 @@
     <a href=""><img id="googl" src="img/35google.png" alt="google plus"></a>
 </div>
 <div id="maincontent" role="main">
+    <p>What shape would you like to draw?</p>
+    <select id="shape_preferences">
+        <option selected>Select one...</option>
+        <option value="triangle">Triangle</option>
+        <option value="rectangle">Rectangle</option>
+        <option value="circle">Circle</option>
+        <option value="arrow">Arrow</option>
+    </select>
+    <br>
+    <br>
     <div class="canvas">
         <canvas id="canvas_main" width="800" height="550"></canvas>
         <button id="button_draw_shapes">Click to draw</button>
         <button id="clear_jCanvas">Clear the canvas</button>
     </div>
-<!--    <div>
-        <canvas width="300" height="300" id="canvas2"></canvas>
-        <button id="button2">Click to animate rectangle</button>
-    </div>
-    <div>
-        <canvas width="300" height="300" id="canvas3"></canvas>
-        <button id="button3">Click to show text</button>
-    </div>-->
-
 
 </div>
 

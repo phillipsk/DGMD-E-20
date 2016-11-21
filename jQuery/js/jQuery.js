@@ -85,14 +85,52 @@ $(document).ready(function() {
             x: 300, y: 90,
             width: 200,
             height: 180
-        });
-        $('#canvas_main').drawPolygon({
+        })
+        .drawPolygon({
             strokeStyle: 'blue',
             strokeWidth: 4,
             x: 450, y: 200,
             radius: 150,
             sides: 3
         });
+    });
+
+    $('#shape_preferences').change(function(){
+        if($('#shape_preferences').val() == 'triangle') {
+            $('#canvas_main').clearCanvas().drawPolygon({
+                strokeStyle: 'black',
+                strokeWidth: 4,
+                x: 200, y: 100,
+                radius: 50,
+                sides: 3
+            });
+        } else if ($('#shape_preferences').val() == 'rectangle') {
+            $('#canvas_main').clearCanvas().drawRect({
+                fillStyle: '#000',
+                x: 150, y: 100,
+                width: 200,
+                height: 100
+            });
+        } else if ($('#shape_preferences').val() == 'circle') {
+            $('#canvas_main').clearCanvas().drawArc({
+                strokeStyle: '#000',
+                strokeWidth: 5,
+                x: 100, y: 100,
+                radius: 50
+            });
+        } else {
+            $('#canvas_main').clearCanvas().drawVector({
+                strokeStyle: '#000',
+                strokeWidth: 4,
+                rounded: true,
+                endArrow: true,
+                arrowRadius: 15,
+                arrowAngle: 90,
+                x: 50, y: 50,
+                a1: 180, l1: 100,
+                a2: 90, l2: 100
+            });
+        }
     });
 
 });
