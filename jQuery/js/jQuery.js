@@ -80,14 +80,14 @@ $(document).ready(function() {
     });
 
     $('#button_draw_shapes').click(function(){
-        $('#canvas_main').drawRect({
+        $('#canvas_main').clearCanvas().drawRect({
             fillStyle: '#c33',
             x: 300, y: 90,
             width: 200,
             height: 180
         })
         .drawPolygon({
-            strokeStyle: 'blue',
+            strokeStyle: 'orange',
             strokeWidth: 4,
             x: 450, y: 200,
             radius: 150,
@@ -125,7 +125,7 @@ $(document).ready(function() {
                 rounded: true,
                 endArrow: true,
                 arrowRadius: 15,
-                arrowAngle: 90,
+                arrowAngle: 80,
                 x: 50, y: 50,
                 a1: 180, l1: 100,
                 a2: 90, l2: 100
