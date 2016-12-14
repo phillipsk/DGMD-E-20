@@ -1,0 +1,20 @@
+#kitteh {
+	width: 300px;
+	height: 188px;
+	background-repeat: no-repeat;
+}
+.one {
+	background-image: url(../img/one.jpg);
+}
+.two {
+	background-image: url(../img/two.jpg);
+}
+.three {
+	background-image: url(../img/three.jpg);
+}
+.lots {
+	background-image: url(../img/lots.jpg);
+}
+.puppy {
+	background-image: url(../img/puppy.jpg);
+}

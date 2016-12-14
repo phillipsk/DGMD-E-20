@@ -1,0 +1,48 @@
+/* Hello, I am custom css */
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+#oranges .ui-block-a {
+	width: 74%;
+	margin-right: 1%;
+}
+#oranges .ui-block-b {
+	width: 25%;
+}
+.custom-corners .ui-bar {
+	border-top-left-radius: inherit;
+	border-top-right-radius: inherit;
+}
+.custom-corners .ui-body {
+	border-top-width: 0;
+	border-bottom-left-radius: inherit;
+	border-bottom-right-radius: inherit;
+}
+
+@media all and (max-width: 720px) {
+	#oranges .ui-block-a,
+	#oranges .ui-block-b {
+		width: 100%;
+	}
+	.ui-grid-c .ui-block-a,
+	.ui-grid-c .ui-block-b,
+	.ui-grid-c .ui-block-c,
+	.ui-grid-c .ui-block-d {
+		width: 49%;
+		margin-right: 1%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
