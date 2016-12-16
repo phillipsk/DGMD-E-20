@@ -1,0 +1,58 @@
+Kevin Phillips
+DGDM-E-20
+Assignment 4 jQuery Mobile & jQuery UI
+
+Turn your assignment in at the assignment page in Canvas.
+
+Use the commenting feature for your assignment.
+
+In the comment, please complete the following:
+
+My week 12-13 jQuery Mobile assignment is located at this/these URL(s):
+http://thewisdomforum.com/
+http://thewisdomforum.com/#TheForum
+http://thewisdomforum.com/#registration
+http://thewisdomforum.com/#Calendar
+http://thewisdomforum.com/#Contact
+
+Grid system is located on this/these page(s):
+http://thewisdomforum.com/
+http://thewisdomforum.com/#TheForum
+http://thewisdomforum.com/#registration
+http://thewisdomforum.com/#Calendar
+http://thewisdomforum.com/#Contact
+
+Button and/or icon is located here: ___
+http://thewisdomforum.com/
+All pages as mentioned above, within the navbar.
+Additionally please see a "Submit" button on these two pages:
+http://thewisdomforum.com/#registration
+http://thewisdomforum.com/#Calendar
+
+My two widgets are 1 and 2 and they are located on these pages: ___
+1) Grouping and dividing content with ui-bar and ui-body classes
+http://thewisdomforum.com/#TheForum
+
+2)Datepicker
+http://thewisdomforum.com/#Calendar
+
+My custom theme is applied on this page ___ line number ___
+http://kevinphillips.email/
+Nearly every style is changed across all button, blocks, and lines
+Please compare http://kevinphillips.email/ versus. http://thewisdomforum.com/
+
+The form is located here: ____ and the modifications I used are ___ and ___ HTML line numbers ____
+http://thewisdomforum.com/#registration
+Lines 147-180
+I used Flip Switch, Range Slider, Field Container groups, Select button
+
+The jQuery Mobile events I used on my site include: ____ They are located here: ____
+
+
+
+My week 14 jQuery UI assignment is located at this/these URL(s): ____
+My custom theme is applied on this page ___ line number(s) ___
+My interaction is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
+My widget is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
+My effect is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
+URL specified above means the EXACT URL where this is located. Do not give me the home page URL unless that’s where the effect is located. Provide the URL to the about page if that’s where the effect is located.

@@ -4,4 +4,7 @@
 .floatright{
     float: right;
 }
-
+.nodata {
+    color: red;
+    font-weight: 600;
+}

@@ -101,11 +101,10 @@
         <div class="ui-block-b">
             <h2>Our Beliefs and Our Deliverance!</h2>
             <p>We believe God is the initiator of reconciliation with us and that the blessings of salvation are made free to all by the gospel. However, His holiness demands justice for the wrongs we have done. We believe that salvation is bestowed not in consideration of any works of righteousness which we have done; but solely through faith in the sacrifice of Jesus to atone for our sin and satisfy God’s wrath against sin.</p>
-            <h3>Salvation</h3>
-            <p>We believe that salvation is instantaneous and not a process; that in the new birth the one dead in trespasses and in sins is made a partaker of the divine nature and receives eternal life, the free gift of God; that the new creation is not brought about by the will of man, but by the will of God.</p>
-            <p>We believe that nothing prevents the salvation of the greatest sinner on earth but his own inherent depravity and voluntary rejection of the gospel; which rejection involves him in an aggravated condemnation.</p>
-            <h3>Repentence</h3>
-            <p>We believe that Repentance and Faith are solemn obligations, and also inseparable graces, wrought in our souls by the Spirit of God; thereby, being deeply convicted of our guilt, danger and helplessness, and of the way of salvation by Christ, we turn to God with sincere remorse, confession and plea for mercy; at the same time heartily receiving the Lord Jesus Christ and openly confessing Him as our only and all­sufficient Savior and Lord.</p>
+            <h3 class="ui-bar ui-bar-a ui-corner-all">Salvation</h3>
+            <p class="ui-body ui-body-a ui-corner-all">We believe that salvation is instantaneous and not a process; that in the new birth the one dead in trespasses and in sins is made a partaker of the divine nature and receives eternal life, the free gift of God; that the new creation is not brought about by the will of man, but by the will of God. We believe that nothing prevents the salvation of the greatest sinner on earth but his own inherent depravity and voluntary rejection of the gospel; which rejection involves him in an aggravated condemnation.</p>
+            <h3 class="ui-bar ui-bar-a ui-corner-all">Repentence</h3>
+            <p class="ui-body ui-body-a ui-corner-all">We believe that Repentance and Faith are solemn obligations, and also inseparable graces, wrought in our souls by the Spirit of God; thereby, being deeply convicted of our guilt, danger and helplessness, and of the way of salvation by Christ, we turn to God with sincere remorse, confession and plea for mercy; at the same time heartily receiving the Lord Jesus Christ and openly confessing Him as our only and all­sufficient Savior and Lord.</p>
         </div>
 
         <div class="ui-block-c">
@@ -155,6 +154,28 @@
                             <option value="4">Pastor</option>
                         </select>
                 </div>
+            <div class="ui-field-contain">
+            <label for="full_name">Full name: </label>
+            <input type="text" id="full_name">
+            </div>
+            <div class="ui-field-contain">
+                <label for="email">Email address:</label>
+                <input type="text" id="email">
+            </div>
+
+            <div class="ui-field-contain">
+                <label for="prayer_count">How many times do you pray each week?</label>
+                <input type="range" name="slider-fill" id="prayer_count" value="0" min="0" max="100" step="1" data-highlight="true">
+            </div>
+            <div class="ui-field-contain">
+                    <label for="comments">Would you like to increase your prayer life?:</label>
+                    <textarea cols="40" rows="18" name="comments" id="comments">Describe...</textarea>
+            </div>
+            <label for="prayer_line_m">Would you like to join us on our Prayer Line?</label>
+            <select name="prayer_line_m" id="prayer_line_m" data-role="slider" data-mini="true">
+                <option value="off" selected="">No</option>
+                <option value="on">Yes</option>
+            </select>
             <a href="#" class="floatright" data-role="button" data-inline="true" data-theme="b">Submit</a>
         </form>
         </aside>
@@ -232,5 +253,6 @@
     } );
 </script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/js.js"></script>
 </body>
 </html>
