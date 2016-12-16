@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- This line tells the browser not to force the Desktop version of the site onto mobile devices
+    but to instead use the device's screen width as the max width of the web page content-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery Mobile Assignment 4 by Kevin Phillips</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+
+<section data-role="page" id="home">
+    <header data-role="header" data-theme="c">
+        <h1>The Wisdom Forum</h1>
+        <nav data-role="navbar">
+            <ul>
+                <li><a href="#home" class="ui-btn-active" data-icon="home">Home</a></li>
+                <li><a href="#TheForum" data-icon="info">The Forum</a></li>
+                <li><a href="#registration" data-icon="alert">Registration</a></li>
+                <li><a href="#Calendar" data-icon="grid">Calendar</a></li>
+                <li><a href="#Contact" data-icon="search">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main data-role="main" class="ui-content">
+        <div class="ui-corner-all custom-corners">
+            <div class="ui-bar ui-bar-a">
+                <h3>The Power of Prayer</h3>
+            </div>
+            <div class="ui-grid-a ui-body ui-body-a">
+                <div class="ui-block-a">
+                    <p>Prayer allows us to worship and praise the Lord. It also allows us to offer confession of our sins, which should lead to our genuine repentance. Moreover, prayer grants us the opportunity to present our requests to God. All of these aspects of prayer involve communication with our Creator. He is personal, cares for us, and wants to commune with us through prayer.</p>
+                    <ul>
+                        <li>" … if my people, who are called by my name, will humble themselves and pray and seek my face and turn from their wicked ways, then will I hear from heaven and will forgive their sin and will heal their land." -2 Chronicles 7:14
+                        </li>
+                    <li>
+                        Isaiah wrote, "He gives strength to the weary and increases the power of the weak. Even youths grow tired and weary, and young men stumble and fall; but those who hope in the LORD will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint" (Isaiah 40:29-31).
+                    </li>
+                    <li>
+                        Hebrews 4:15-16 reads, "For we do not have a high priest who is unable to sympathize with our weaknesses, but we have one who has been tempted in every way, just as we are - yet was without sin. Let us then approach the throne of grace with confidence, so that we may receive mercy and find grace to help us in our time of need."
+                    </li>
+                    </ul>
+                    <p>Prayer is not just about asking for God's blessings – though we are welcome to do so – but it is about communication with the living God. Without communication, relationships fall apart. So, too, our relationship with God suffers when we do not communicate with Him.</p>
+                </div>
+                <div class="ui-block-b">
+                    <img src="img/david_prayer.jpg" alt="King David Praying">
+                </div>
+            </div>
+        </div>
+        <div class="ui-grid-b">
+            <div class="ui-block-a">
+                <h3>Prayer</h3>
+                <p><a href="#TheForum"><img src="img/prayer_hands.jpg" alt="Prayer Requests"></a></p>
+                <p><a href="#TheForum" data-role="button" data-inline="true" data-theme="a">"Rejoice always, pray without ceasing"</a></p>
+            </div>
+            <div class="ui-block-b">
+                <h3>Registration</h3>
+                <p><a href="#registration"><img src="img/register_enter.jpeg" alt="registration"></a></p>
+                <p><a href="#registration" data-role="button" data-inline="true" data-theme="b">Register to Join the Wisdom Forum!</a></p>
+            </div>
+            <div class="ui-block-c">
+                <h3>Calendar</h3>
+                <p><a href="#Calendar"><img src="img/calendar.png" alt="Calendar"></a></p>
+                <p><a href="#Calendar" data-role="button" data-inline="true" data-theme="a">View upcoming Events!</a></p>
+            </div>
+        </div>
+    </main>
+    <footer data-role="footer">
+        <p class="footer">The Wisdom Forum &copy; 2017</p>
+    </footer>
+</section>
+<section data-role="page" id="TheForum">
+    <header data-role="header">
+        <h1>Wisdom Forum</h1>
+        <nav data-role="navbar">
+            <ul>
+                <li><a href="#home" data-icon="home">Home</a></li>
+                <li><a href="#TheForum" class="ui-btn-active" data-icon="info">The Forum</a></li>
+                <li><a href="#registration"  data-icon="alert">Registration</a></li>
+                <li><a href="#Calendar" data-icon="grid">Calendar</a></li>
+                <li><a href="#Contact" data-icon="search">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main data-role="main" class="ui-content ui-grid-a">
+        <div class="ui-block-a">
+            <h2>The Forum's Vision</h2>
+            <p>The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised... - Luke 4:18</p>
+
+               <p>We believe the Bible, composed of the sixty­six books of the Old and New Testaments, is God’s inspired and infallible Word. It is inerrant in the original manuscripts, and is the authority on all matters of life, belief, and practice of our faith.</p>
+
+                <p>We believe in one God, maker of heaven and earth, and eternally existent as God the Father, God the Son, and God the Holy Spirit; equal in divine perfection, and executing distinct but harmonious offices in the great work of redemption. He is pure, holy, all­powerful, full of love, and the source of truth.</p>
+
+                <p> We believe in the deity of Jesus Christ. We believe that Jesus Christ was begotten of the Holy Ghost in a miraculous manner; born of Mary, a virgin, as no other man was ever born or can ever be born of a woman, and that He is the Son of God, and God, the Son. We believe in His sinless life, and in His miracles. His death on the cross was substitutionary for mankind and paid for the sins of the world. He died, was buried, rose bodily from the grave, He ascended into heaven, sits at the right hand of God the Father, is the only mediator between God and man, and He will return to earth in power and glory.</p>
+        </div>
+
+        <div class="ui-block-b">
+            <h2>Our Beliefs and Our Deliverance!</h2>
+            <p>We believe God is the initiator of reconciliation with us and that the blessings of salvation are made free to all by the gospel. However, His holiness demands justice for the wrongs we have done. We believe that salvation is bestowed not in consideration of any works of righteousness which we have done; but solely through faith in the sacrifice of Jesus to atone for our sin and satisfy God’s wrath against sin.</p>
+            <h3>Salvation</h3>
+            <p>We believe that salvation is instantaneous and not a process; that in the new birth the one dead in trespasses and in sins is made a partaker of the divine nature and receives eternal life, the free gift of God; that the new creation is not brought about by the will of man, but by the will of God.</p>
+            <p>We believe that nothing prevents the salvation of the greatest sinner on earth but his own inherent depravity and voluntary rejection of the gospel; which rejection involves him in an aggravated condemnation.</p>
+            <h3>Repentence</h3>
+            <p>We believe that Repentance and Faith are solemn obligations, and also inseparable graces, wrought in our souls by the Spirit of God; thereby, being deeply convicted of our guilt, danger and helplessness, and of the way of salvation by Christ, we turn to God with sincere remorse, confession and plea for mercy; at the same time heartily receiving the Lord Jesus Christ and openly confessing Him as our only and all­sufficient Savior and Lord.</p>
+        </div>
+
+        <div class="ui-block-c">
+            <h2>The Church</h2>
+            <p>We believe that the Church, the body of Christ, is made up of all believers of the church age; that Jesus Christ is the head of the Church; and that local churches are the practical expression of the Church.
+                <p>The local Church is a “people who” rather than a “place where”. Therefore, the church is the gathering of those who have placed their faith in Jesus Christ, have been baptized, associated by a covenant of faith and who meet for the purpose of being a church. Members of a local church voluntarily share their lives and faith with each other in unity and meet together for encouragement, worship, service, prayer, spiritual development and to observe the ordinances of the church (baptism by immersion and communion). </p>
+            <p>We hold that the local church has the absolute right of self government, free from the interference of any hierarchy of individuals or organizations; that every church is the sole and only judge of the measure and method of its cooperation; on all matters of membership, of policy, of government, of discipline, and of benevolence.</p>
+            <p>We believe the local church is the planned instrument of God to carry out the Great Commission. Therefore, we believe every believer should join a local church and fully engage in accomplishing its mission.</p>
+        </div>
+
+    </main>
+    <footer data-role="footer">
+        <p class="footer">The Wisdom Forum &copy; 2017</p>
+    </footer>
+</section>
+
+
+<section data-role="page" id="registration">
+    <header data-role="header">
+        <h1>Wisdom Forum</h1>
+        <nav data-role="navbar">
+            <ul>
+                <li><a href="#home" data-icon="home">Home</a></li>
+                <li><a href="#TheForum" data-icon="info">The Forum</a></li>
+                <li><a href="#registration" class="ui-btn-active" data-icon="alert">Registration</a></li>
+                <li><a href="#Calendar" data-icon="grid">Calendar</a></li>
+                <li><a href="#Contact" data-icon="search">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main data-role="main" class="ui-content ui-grid-a">
+        <div    class="ui-block-a">
+            <h2>Registration</h2>
+            <p>The Wisdom Forum is a special place where the personal experience of living by faith is enhanced through a community. We are a growing community consisting of real people who live in the real world, discovering the sacred in our every day lives and in one another. Our ministry has become a spiritual oasis for the community at large. As the foundations of mainstream denominations have declined, a vast spiritual need has been exposed. The Wisdom Forum now has the opportunity to meet this need through practices both ancient and new, welcoming all who are seeking a connection with God. Many are finding a place of healing, growth and peace at The Wisdom Forum. Visit us soon!</p>
+        </div>
+
+        <aside class="ui-block-b">
+            <p><img src="img/Road_to_Wisdom.jpg" class="floatright" alt="registration! ">
+
+            <form>
+                <div class="ui-field-contain">
+                        <label for="select-native-1">Register Now:</label>
+                        <select name="select-native-1" id="select-native-1">
+                            <option value="1">Brother</option>
+                            <option value="2">Sister</option>
+                            <option value="3">Deacon</option>
+                            <option value="4">Pastor</option>
+                        </select>
+                </div>
+            <a href="#" class="floatright" data-role="button" data-inline="true" data-theme="b">Submit</a>
+        </form>
+        </aside>
+    </main>
+    <footer data-role="footer">
+        <p class="footer">The Wisdom Forum &copy; 2017</p>
+    </footer>
+</section>
+<section data-role="page" id="Calendar">
+    <header data-role="header">
+        <h1>Wisdom Forum</h1>
+        <nav data-role="navbar">
+            <ul>
+                <li><a href="#home" data-icon="home">Home</a></li>
+                <li><a href="#TheForum" data-icon="info">The Forum</a></li>
+                <li><a href="#registration"  data-icon="alert">Registration</a></li>
+                <li><a href="#Calendar" class="ui-btn-active" data-icon="grid">Calendar</a></li>
+                <li><a href="#Contact" data-icon="search">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main data-role="main" class="ui-content ui-grid-a">
+        <div class="ui-block-a">
+            <h2>Calendar</h2>
+            <p>Date:
+                <input type="text" data-role="date" data-inline="true" id="datepicker">
+            </p>
+            <br><br><br><br><br><br><br><br><br>
+            <p>The Wisdom Forum is available to for venue scheduling. Please select a date you would like the WF to join you and your party.</p>
+            <a href="#" data-role="button" data-inline="true" data-theme="b">Submit</a>
+        </div>
+        <div class="ui-block-b">
+
+        </div>
+
+    </main>
+    <footer data-role="footer">
+        <p class="footer">The Wisdom Forum &copy; 2017</p>
+    </footer>
+</section>
+
+<section data-role="page" id="Contact">
+    <header data-role="header">
+        <h1>Wisdom Forum</h1>
+        <nav data-role="navbar">
+            <ul>
+                <li><a href="#home" data-icon="home">Home</a></li>
+                <li><a href="#TheForum" data-icon="info">The Forum</a></li>
+                <li><a href="#registration"  data-icon="alert">Registration</a></li>
+                <li><a href="#Calendar"  data-icon="grid">Calendar</a></li>
+                <li><a href="#Contact" class="ui-btn-active" data-icon="search">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main data-role="main" class="ui-content ui-grid-a">
+        <div class="ui-block-a">
+            <h2>Contact</h2>
+
+
+        </div>
+
+    </main>
+    <footer data-role="footer">
+        <p class="footer">The Wisdom Forum &copy; 2017</p>
+    </footer>
+</section>
+
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<!--<script src="https://code.jquery.com/jquery-1.12.4.js"></script>-->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+    $( function() {
+        $( "#datepicker" ).datepicker();
+    } );
+</script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</body>
+</html>
